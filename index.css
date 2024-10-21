@@ -1,0 +1,214 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'JMLetter', sans-serif; 
+    background: linear-gradient(black, #9a7b98, black);   
+    color: whitesmoke;
+}
+.skip-to-main{
+    font-size: 1.5rem;
+    color: aliceblue;
+    font-family: 'Opera';
+    border: 2px solid blue;
+    border-radius: 16px;
+    padding: 20px 30px;
+    position: absolute; 
+    left: -240px;
+    top: 180px;
+    transition: 1s;
+    background-color: #9a1424;
+    box-shadow: 0px 0px 30px black;  
+}
+.skip-to-main:focus{
+    left: -20px;
+    transition: 3s;
+}
+#gnomeDiv{
+    border: 1px solid blue;
+    box-shadow: 15px 15px 15px #9a1424;
+    border-radius: 30px;
+    margin:40px 20px;
+    padding: 30px 40px;
+    background: linear-gradient(#1f232e, #9a1424, #e53412, #f27501, #f0b28f, #9a8099, #7f6e9c);
+}
+h1{
+    text-shadow: 5px 5px 5px black;  
+    font-family: 'DPSDbeyond', sans-serif;
+    font-size: 4rem;              
+}
+.title{
+    font-family: 'Opera', sans-serif;
+    font-size: 5rem;
+    text-shadow: 2px 2px 2px yellow;
+    
+}
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.navLogo{
+    padding: 10px 70px;
+}
+#logo-Text{
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+.navLinks{
+    background: #f4e409;
+    margin: 10px 10px;
+    border-radius: 10px;
+    width: 500px;
+    height: 60px;
+    border-bottom: 2px solid black;
+    font-size: 1.253rem;
+    text-shadow: 0px 0px 1px black;
+    cursor: pointer;
+}
+.navLinks ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type:none;
+}
+#logo-img{
+    width: 100px;
+    border-radius: 50%;
+    border: 1px solid whitesmoke;
+}
+#bil-img{
+    width: 420px;
+    height: auto;
+    border-radius: 29px;
+}
+#bilMan-img{
+    width: 300px;
+    height: auto;
+    border-radius: 14px;
+}
+#weird-img{
+    width: 550px;
+    height: auto;
+    border-radius: 41px;
+}
+#dipper-img{
+    width: 550px;
+    height: auto;
+    border-radius: 37px;
+    margin-left: 2em;
+    border: 2px solid yellow;
+}
+.flexEntry{
+    display: flex;
+    justify-content: space-evenly;
+}
+.bill-man p{
+    margin-top: 5em;
+}
+.para{
+    font-size: 1.25rem;
+    width: 550px;
+}
+
+.weirdmageddon, form{
+    margin-bottom: 6em;
+    font-size: 2rem;
+    font-family: 'Opera', sans-serif;
+}
+#formHeading{
+    font-size: 2.5rem;
+}
+fieldset{
+    height: 490px;
+    width: 490px;
+    border-radius: 18px;
+    margin: auto;
+    font-size: 2rem;
+}
+
+input, textarea{
+    border-radius: 1em;
+    padding: 10px 35px;
+    border: none;
+    box-shadow: 0px 0px 10px yellow;
+}
+#nameDiv, #emailDiv, #messageDiv{
+    text-align: left;
+}
+#radioSet{
+    text-align: left;
+}
+
+input::placeholder{
+    color:#495057;
+}
+textarea::placeholder{
+    color:#495057;  
+}
+#submit-btn{
+    padding: 10px 20px;
+    border-radius: 16px;
+    border: 2px solid yellow;
+    font-size: 1.3rem;
+    margin-top: 20px;
+    box-shadow: 0px 0px 10px yellow;
+    transition: all 0.5s ease-in;
+}
+#submit-btn:hover{
+    transition: all 0.5s ease-out;
+    background-color: gainsboro;
+    color: #9a1424;
+    border: 2px solid #9a1424;
+    box-shadow: 5px 5px 10px #9a1424;
+}
+
+
+#contact{
+    font-size: 3rem;
+    padding-top: 50px;
+    font-family: 'Opera';
+    font-family: 'DPSDbeyond', sans-serif;
+}
+footer{
+    background: linear-gradient(#fd3304, black);
+    border-top-left-radius:37px;
+    border-top-right-radius:37px;
+    margin: 0px 5px;
+    padding-bottom: 50px;
+}
+.footerNav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.565rem;
+    padding-bottom: 50px;
+}
+
+.footerNav a{
+    color: white;
+    transition:all 0.5s ease-in;
+}
+.footerNav a:hover{
+    transition: all 0.5s ease-out;
+    background-color: #F0B28F;
+    color: black;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+.footerNav{
+    color: white;
+}
+.footerBottom{
+    color: white;
+}
+#myName{
+    background-color: black;
+    text-transform: capitalize;
+    padding: 10px 15px;
+    border-radius:9px ;
+}
+
+
+
+
+/* background: linear-gradient(#1f232e, #9a1424, #e53412, #f27501, #f0b28f, #9a8099, #7f6e9c); */
